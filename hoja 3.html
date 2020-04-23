@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="CSS/estilos.css">
+    </head>
+    <body>
+<header class="header">
+<div class="header-grapper">
+    <div class="header-logo">
+        <img src="imagenes/encabezado.png" alt="logo-unad" />
+   <h1>Métodos de Ordenación con Programación Orientada a Objetos</h1>
+
+    </div>
+    <nav class="header-menu">
+        <h7>M. Inserción</h7>
+        <ul class="header-menu-wrapper">
+            
+           <li class="header-menu-item">
+               <a href="#" class="header-menu-link"> Inicio</a>
+
+           </li> 
+           <li class="header-menu-item">
+            <a href="hoja 2.html" class="header-menu-link"> M.Burbuja</a>
+
+           </li> 
+           <li class="header-menu-item">
+            <a href="hoja 3.html" class="header-menu-link"> M.Inserción</a>
+
+           </li> 
+          <li class="header-menu-item">
+            <a href="hoja 4.html" class="header-menu-link"> M. Selección</a>
+          
+           </li> 
+       
+    
+         </ul>
+         <section class="information">
+            <header>
+                <h1 class="title-under-line">
+                   
+                <h4>Método de Inserción: </h4>
+            </header>
+            <p>Es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. Requiere O(n²) operaciones para ordenar una lista de n elementos.
+                Inicialmente se tiene un solo elemento, que obviamente es un conjunto ordenado. Después, cuando hay k elementos ordenados de menor a mayor, se toma el elemento k+1 y se compara con todos los elementos ya ordenados, deteniéndose cuando se encuentra un elemento menor (todos los elementos mayores han sido desplazados una posición a la derecha). En este punto se inserta el elemento k+1 debiendo desplazarse los demás elementos.
+        
+           </p>
+            <div class="cover-description">
+                
+                
+                <h7>Ejemplo en LPP.</h7>
+                <p> 
+                  <span class="linea"> <p> Arreglo[10]de entero vector entero i,j,aux </p></span>
+                  <span class="linea"><p>inicio</p></span>
+                  <span class="linea"><p>escriba "ordenar los numeros de un vector ." llamar nueva_Linea</p></span>
+                  <span class="linea"><p>para i<-1 hasta 10 haga</p></span>
+                 <span class="linea"><p>escriba "ingrese el siguiente numero: " lea vector[i]]</p></span>
+                 <span class="linea"><p>fin para</p></span>
+                 <span class="linea"><p>para i<-1 hasta 10 haga</p></span>
+                 <span class="linea"><p>aux<-vector[i] j<-i-1</p></span>
+                 <span class="linea"><p>vector[j+1]<-vector[j] j<-j-1</p></span>
+                    <span class="linea"><p>Fin Mientras</p></span>  
+                    <span class="linea"><p>vector[j+1]<-aux<-aux</p></span>  
+                    <span class="linea"><p>fin para</p></span> 
+                    <span class="linea"><p>para i<-1 hasta 10 haga</p></span>
+                    <span class="linea"><p>escriba "posicion '",i,"' es: ",vector[i] llamar nueva_linea</p></span>
+                   <span class="linea"><p>fin para</p></span>
+                   <span class="linea"><p>fin </p></span>
+            </div>
+            
+            <br>
+
+               
+            <h2>A continuación se muestra un video donde se explica lo anteriormente dispuesto.</h2>
+                       <br>
+            
+                <div class="video">
+                       <video controls poster="imagenes/portdadavideo.jpg">
+                           <source src="videos/insercion_1.mp4" type="video/mp4">
+                       </video>
+    
+                </div>
+           
+
+             <footer class="comunicacion">
+                <div class= "logo">
+                <img src="imagenes/pie.png" alt="footer" height="50px" "/>
+               </div>
+                        <p> Sede nacional José Celestino Mutis: Calle 14 sur No. 14 - 23 </p>
+                        <p>PBX: ( +57 1 ) 344 3700 Bogotá D.C., Colombia </p>
+                        <p>Línea nacional gratuita desde Colombia: 018000115223 </p>
+                        <p>Atención al usuario: atencionalusuario@unad.edu.co </p>
+                        <p>Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional</p>
+                        
+                          
+                   
+                  
+                  
+                   
+                   
+               </footer>
+           
+            </html>
